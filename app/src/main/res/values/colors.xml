@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_pri">#1E1E1E</color>
+    <color name="black_sec">#2C2C2C</color>
+    <color name="yellow">#FFDB20</color>
+    <color name="yellow_sec">#FFEFC6</color>
+    <color name="red">#C60606</color>
+    <color name="blue">#4E84C1</color>
+    <style name="ButtonCal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:backgroundTint">@color/black_sec</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/plusjakarta</item>
+    </style>
+    <style name="ButtonOp" parent="@style/ButtonCal">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
